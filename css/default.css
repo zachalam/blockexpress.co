@@ -1,0 +1,44 @@
+html,body {
+    font-family: 'Work Sans', sans-serif;
+    color:#777;
+    height:100%;
+    text-align:center;
+}
+a { color: #aaa; }
+h1 { color:white; font-size: 3em; margin:0; }
+h2 { color:#555; font-size:1.9em; margin:0; margin-bottom:0.2em; }
+
+.button { background-color:#00a209; color:white; padding:1em; text-align:center; }
+.button:hover { background-color:#00bb0b; color:white; }
+
+.signature { font-family: 'Cedarville Cursive', cursive; font-size:1.7em; }
+.social { font-size:1.8em; }
+.highlight { color:#fffa9b; }
+
+.flex-grid {
+    display: flex;
+    height:100%;
+  }
+  .col {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.bg {
+    background-image:url('../images/sidebar.jpg'); 
+    background-size:cover;
+    height:100%;
+}
+
+.text {
+    text-align: left;
+    padding:3em;
+}
+
+@media (max-width: 600px) {
+.flex-grid {
+    display: block;
+}
+}  
