@@ -8,11 +8,10 @@ a { color: #aaa; }
 h1 { color:white; font-size: 3em; margin:0; }
 h2 { color:#555; font-size:1.9em; margin:0; margin-bottom:0.2em; }
 
-.button { background-color:#00a209; color:white; padding:1em; text-align:center; }
-.button:hover { background-color:#00bb0b; color:white; }
+.button { background-color:#0074B8; color:white; padding:1em; text-align:center; text-decoration:none; }
+.button:hover { background-color:#00649f; color:white; }
 
 .signature { font-family: 'Cedarville Cursive', cursive; font-size:1.7em; }
-.social { font-size:1.8em; }
 .highlight { color:#fffa9b; }
 
 .flex-grid {
